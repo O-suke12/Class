@@ -15,6 +15,10 @@
 		5307C916246CEFD4007F8052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307C914246CEFD4007F8052 /* LaunchScreen.storyboard */; };
 		5307C921246CEFD4007F8052 /* ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307C920246CEFD4007F8052 /* ClassTests.swift */; };
 		5307C92C246CEFD4007F8052 /* ClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307C92B246CEFD4007F8052 /* ClassUITests.swift */; };
+		5307C93C246D36DD007F8052 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307C93B246D36DD007F8052 /* Mentor.swift */; };
+		5307C941246D393D007F8052 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5307C93E246D393D007F8052 /* ryo.jpg */; };
+		5307C942246D393D007F8052 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5307C93F246D393D007F8052 /* nagata.jpg */; };
+		5307C943246D393D007F8052 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5307C940246D393D007F8052 /* taithi.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		5307C927246CEFD4007F8052 /* ClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5307C92B246CEFD4007F8052 /* ClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassUITests.swift; sourceTree = "<group>"; };
 		5307C92D246CEFD4007F8052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307C93B246D36DD007F8052 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		5307C93E246D393D007F8052 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		5307C93F246D393D007F8052 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		5307C940246D393D007F8052 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		5307C908246CEFD1007F8052 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5307C93D246D393D007F8052 /* images */,
+				5307C93B246D36DD007F8052 /* Mentor.swift */,
 				5307C909246CEFD1007F8052 /* AppDelegate.swift */,
 				5307C90B246CEFD1007F8052 /* SceneDelegate.swift */,
 				5307C90D246CEFD1007F8052 /* ViewController.swift */,
@@ -126,6 +136,16 @@
 				5307C92D246CEFD4007F8052 /* Info.plist */,
 			);
 			path = ClassUITests;
+			sourceTree = "<group>";
+		};
+		5307C93D246D393D007F8052 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5307C93E246D393D007F8052 /* ryo.jpg */,
+				5307C93F246D393D007F8052 /* nagata.jpg */,
+				5307C940246D393D007F8052 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5307C941246D393D007F8052 /* ryo.jpg in Resources */,
+				5307C942246D393D007F8052 /* nagata.jpg in Resources */,
+				5307C943246D393D007F8052 /* taithi.JPG in Resources */,
 				5307C916246CEFD4007F8052 /* LaunchScreen.storyboard in Resources */,
 				5307C913246CEFD4007F8052 /* Assets.xcassets in Resources */,
 				5307C911246CEFD1007F8052 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5307C93C246D36DD007F8052 /* Mentor.swift in Sources */,
 				5307C90E246CEFD1007F8052 /* ViewController.swift in Sources */,
 				5307C90A246CEFD1007F8052 /* AppDelegate.swift in Sources */,
 				5307C90C246CEFD1007F8052 /* SceneDelegate.swift in Sources */,
